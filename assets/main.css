@@ -6295,6 +6295,9 @@ nav {
   width: 70%;
   z-index: 100;
 }
+.events .event .speaker-name a {
+  text-decoration: none;
+}
 .empty .speaker-name {
   background: url("../assets/franjabw.png") repeat #ffffff;
   color: gray;
