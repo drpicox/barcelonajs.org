@@ -6007,14 +6007,14 @@ header {
 .header {
   height: 10.71428571em;
 }
-.header-text {
-  display: inline-block;
-}
 .logo {
   display: inline-block;
   height: 150px;
   width: 150px;
   background: url('/assets/logo.png') no-repeat;
+}
+.logo h1 {
+  display: none;
 }
 nav {
   line-height: 4.14285714em;
