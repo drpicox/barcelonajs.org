@@ -6283,7 +6283,6 @@ nav {
 .events .event .speaker-name {
   line-height: 2em;
   text-transform: uppercase;
-  padding-left: 10px;
   background: rgba(36, 27, 28, 0.9);
   border-bottom: 3px solid rgba(35, 39, 35, 0.1);
   color: white;
@@ -6292,7 +6291,7 @@ nav {
   margin-top: -13%;
   margin-bottom: 8%;
   position: relative;
-  width: 70%;
+  width: 80%;
   z-index: 100;
 }
 .events .event .speaker-name a {
