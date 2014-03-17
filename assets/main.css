@@ -6297,6 +6297,150 @@ nav {
 .events .event .speaker-name a {
   text-decoration: none;
 }
+.history {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.history:before,
+.history:after {
+  content: " ";
+  display: table;
+}
+.history:after {
+  clear: both;
+}
+.history:before,
+.history:after {
+  content: " ";
+  display: table;
+}
+.history:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .history {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .history {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .history {
+    width: 1170px;
+  }
+}
+.history .history-event {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 25px;
+  text-align: left;
+}
+.history .history-event:before,
+.history .history-event:after {
+  content: " ";
+  display: table;
+}
+.history .history-event:after {
+  clear: both;
+}
+.history .history-event:before,
+.history .history-event:after {
+  content: " ";
+  display: table;
+}
+.history .history-event:after {
+  clear: both;
+}
+.history .history-event .meta {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.history .history-event .resources {
+  background-color: rgba(42, 100, 150, 0.7);
+  padding: 15px;
+}
+.history .history-event .resources a {
+  color: #241b1c;
+  margin-right: 15px;
+}
+.history .history-event .event-content {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 1200px) {
+  .history .history-event .event-content {
+    float: left;
+    width: 83.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .history .history-event .event-content {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) {
+  .history .history-event .event-content {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+.history .history-event .speaker {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: white;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .history .history-event .speaker {
+    float: left;
+    width: 16.66666667%;
+  }
+}
+@media (min-width: 992px) {
+  .history .history-event .speaker {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 768px) {
+  .history .history-event .speaker {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+.history .history-event .speaker-portrait {
+  width: 100%;
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.history .history-event .speaker-name {
+  line-height: 2em;
+  text-transform: uppercase;
+  background: rgba(36, 27, 28, 0.9);
+  border-bottom: 3px solid rgba(35, 39, 35, 0.1);
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin-top: -13%;
+  margin-bottom: 8%;
+  position: relative;
+  width: 80%;
+  z-index: 100;
+}
+.history .history-event .speaker-name a {
+  text-decoration: none;
+}
 .empty .speaker-name {
   background: url("../assets/franjabw.png") repeat #ffffff;
   color: gray;
