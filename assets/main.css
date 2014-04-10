@@ -6482,6 +6482,43 @@ nav {
     width: 1170px;
   }
 }
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.title:before,
+.title:after {
+  content: " ";
+  display: table;
+}
+.title:after {
+  clear: both;
+}
+.title:before,
+.title:after {
+  content: " ";
+  display: table;
+}
+.title:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .title {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .title {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .title {
+    width: 1170px;
+  }
+}
 .sponsor {
   float: left;
   width: 290px;
